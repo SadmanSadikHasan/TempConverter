@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bp"
+    tools:context=".deg_kel">
+
+    <EditText
+        android:id="@+id/enterTempId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="104dp"
+        android:ems="10"
+        android:hint="Enter Temperature"
+        android:inputType="numberDecimal"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/convertId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="257dp"
+        android:text="Convert" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:text="Degree-Kelvin"
+        android:textColor="@color/bg4"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/backId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginBottom="32dp"
+        android:text="Back" />
+
+    <TextView
+        android:id="@+id/resultId"
+        android:layout_width="192dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="160dp"
+        android:text="result"
+        android:textColor="@color/bg4"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/historyId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:text="History" />
+
+
+</RelativeLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg1"
+    tools:context=".history">
+
+    <TableRow
+
+        android:layout_marginTop="20dp"
+        android:id="@+id/titlerowId"
+        android:background="@color/bg3"
+        >
+        <TextView
+
+            android:text="  History  "
+            android:textSize="30dp"
+            android:textColor="@color/bg4"
+            android:textStyle="bold"
+            />
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/headerId"
+        android:background="@color/bg2"
+        >
+
+        <TextView
+            android:layout_width="137dp"
+            android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Conversion"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Input Temp"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Result Temp"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/r1Id"
+
+        >
+
+        <TextView
+            android:id="@+id/r1c1Id"
+            android:layout_height="74dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/bg4"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/r1c2Id"
+            android:layout_height="74dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text=""
+            android:textColor="@color/bg4"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/r1c3Id"
+            android:layout_height="74dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text=""
+            android:textColor="@color/bg4"
+            android:textSize="20dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/r2Id"
+
+        >
+
+        <TextView
+            android:id="@+id/r2c1Id"
+            android:layout_height="74dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text=""
+            android:textColor="@color/bg4"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/r2c2Id"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text=""
+            android:textColor="@color/bg4"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/r2c3Id"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text=""
+            android:textColor="@color/bg4"
+            android:textSize="20dp" />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/r3Id"
+
+        >
+
+        <TextView
+            android:id="@+id/r3c1Id"
+            android:layout_height="74dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text=""
+            android:textColor="@color/bg4"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/r3c2Id"
+            android:layout_height="74dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="20dp"
+            android:text=""
+            android:textColor="@color/bg4"
+            />
+        <TextView
+            android:id="@+id/r3c3Id"
+            android:layout_height="74dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="20dp"
+            android:text=""
+            android:textColor="@color/bg4"
+            />
+
+    </TableRow>
+
+</TableLayout>
